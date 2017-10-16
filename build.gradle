@@ -1,0 +1,14 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'is.ru.hugb.StringCalculator'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+    compile 'joda-time:joda-time:2.9.9'
+	compile 'com.sparkjava:spark-core:2.6.0'
+}
