@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="is.ru.hugb.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-10-16T18:30:30" hostname="LAPTOP-NM3IVQ2G" time="0.004">
+<testsuite name="is.ru.hugb.CalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-10-16T19:55:21" hostname="LAPTOP-NM3IVQ2G" time="0.008">
   <properties/>
-  <testcase name="emptyNumber" classname="is.ru.hugb.CalculatorTest" time="0.004"/>
+  <testcase name="twoNumbers" classname="is.ru.hugb.CalculatorTest" time="0.005"/>
+  <testcase name="emptyNumber" classname="is.ru.hugb.CalculatorTest" time="0.0"/>
+  <testcase name="oneNumber" classname="is.ru.hugb.CalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

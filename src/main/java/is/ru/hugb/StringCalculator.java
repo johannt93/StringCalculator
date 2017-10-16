@@ -1,13 +1,14 @@
 package is.ru.hugb;
 
 import org.joda.time.DateTime;
-import static spark.Spark.*;
+//import static spark.Spark.*;
 
 public class StringCalculator{
 	public static void main(String[] args) {
 		Calculator calc = new Calculator();
-		String str = "1";
-		get("/", (req, res) -> calc.add(str));
+		String str = "10";
+		System.out.println(calc.add(str));
+		//get("/", (req, res) -> calc.add(str));
 		//get("/daysleft", (req, res) -> daysLeft());
 	}
 	
